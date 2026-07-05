@@ -143,7 +143,7 @@ http://localhost:8000
 
 ## 注意事项
 
-- `web_server.py` 默认挂载 `static/app.html`，但当前仓库未包含 `static/` 目录；如果没有前端页面，可直接使用 API 或先补齐静态前端文件。
+- `web_server.py` 默认挂载 `static/app.html`。
 - `main.py` 引用了 `Local_Model`、`Knowledge_Grpah`、`ContextRouter` 等当前仓库未提供的模块，更像是实验性/扩展入口；推荐优先使用 `fault_agent.py` 和 `web_server.py`。
 - 源码中部分中文注释或字符串存在编码乱码，不影响整体架构理解，但建议后续统一为 UTF-8。
 - `.env`、`env.env` 等密钥文件已加入 `.gitignore`，不要提交真实 API Key。
