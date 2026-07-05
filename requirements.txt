@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+requests
+langgraph
+langchain-core
+langchain-openai
+pymilvus
+milvus-lite
+tavily-python
+langfuse
+
